@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  height: 95%;
+  width: 80%;
+  /* border: 7px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputform {
+  height: 480px;
+  width: 300px;
+  background-color: #ececeb;
+  overflow: hidden;
+}
+.input-details {
+  height: 7%;
+  width: 100%;
+  margin-left: 5%;
+}
+.name {
+  height: 12%;
+  width: 100%;
+  margin-top: 5%;
+}
+.name input {
+  height: 55%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(197, 187, 187);
+  border-radius: 3px;
+}
+label {
+  margin-left: 5%;
+  color: #3d546b;
+  font-weight: bold;
+  font-size: small;
+}
+.dob {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.dob input {
+  height: 55%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(197, 187, 187);
+  border-radius: 3px;
+}
+.contact {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.contact input {
+  height: 55%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(197, 187, 187);
+  border-radius: 3px;
+}
+.country {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.country select {
+  height: 55%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(197, 187, 187);
+  border-radius: 3px;
+}
+.state {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.state select {
+  height: 55%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(197, 187, 187);
+  border-radius: 3px;
+}
+.email {
+  height: 12%;
+  width: 100%;
+  margin-top: 2%;
+}
+.email input {
+  height: 55%;
+  width: 90%;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(197, 187, 187);
+  border-radius: 3px;
+}
+.submit {
+  height: auto;
+  width: 100%;
+  margin-top: 2%;
+}
+.submit input {
+  height: 30px;
+  width: 70px;
+  background-color: #06817d;
+  color: white;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.displaydiv{
+  margin-top: 20px;
+}
+

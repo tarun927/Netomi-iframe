@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+    <form class="inputform" name="myForm" action="/action_page.php" onsubmit="return formValidation()" method="post">
+      <div class="input-details">
+        <p>Can you please provide your personal details?</p>
+      </div>
+      <div class="name">
+        <label htmlFor='name'>Name</label><br/>
+        <input class="names" type="text" placeholder="Enter your name" name="fname" required/>
+      </div>
+      <div class="dob">
+        <label htmlFor='dob'>Date of birth</label><br/>
+        <input type="date" placeholder="Enter your name" name="txtDOB"/>
+      </div>
+      <div class="contact">
+        <label htmlFor='contact'>Contact</label><br/>
+        <input type="text" placeholder="Enter your contact" name="fcontact"/>
+      </div>
+      <div class="country">
+        <label htmlFor='countryL'>Country</label><br/>
+        <select name="country" id="con" name="countstate" onchange="populateState()">
+          <option value="">--Select Country--</option>
+        </select>
+      </div>
+      <div class="state"><label htmlFor='stateL'>State</label><br/>
+        <select name="State" id="sta">
+          <option value="">--Select State--</option>
+        </select>
+      </div>
+        
+      <div class="email">
+        <label htmlFor='email'>email</label><br/>
+        <input type="text" placeholder="Enter your email" name="femail"/>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Submit" class="submit1" id="sub"></input>
+      </div>
+    </form>
+  
+</body>
+<script src="index.js"></script>
+</html>
